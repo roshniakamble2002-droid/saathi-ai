@@ -1,3 +1,10 @@
+## 🚀 Demo
+
+🎥 Demo Video: Coming soon
+
+🧠 Live Preview: http://localhost:5173
+
+---
 # 🧠 SaathiAI
 ### *Because every student deserves someone to talk to.*
 
