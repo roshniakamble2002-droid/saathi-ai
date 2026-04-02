@@ -1,7 +1,6 @@
 ## 🚀 Demo
 
 🎥 Demo Video: Coming soon
-
 🧠 Live Preview: http://localhost:5173
 
 ---
@@ -9,6 +8,8 @@
 # 🧠 SaathiAI
 
 ### *Because every student deserves someone to talk to.*
+
+> 💙 A privacy-first, fully offline AI companion designed to support students through stress, anxiety, and everyday emotional challenges.
 
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-actively--building-brightgreen)
@@ -54,40 +55,40 @@ However, the current ecosystem presents several limitations:
 
 ## 💡 Solution
 
-SaathiAI addresses these challenges by providing a **fully offline, privacy-first AI mental health companion** designed specifically for students.
+SaathiAI provides a **fully offline, privacy-first AI mental health companion** specifically designed for students.
 
-Key principles behind the solution:
+It is built on simple but powerful principles:
 
-* 🧠 **Always available** — works anytime without internet
-* 🔒 **Privacy-first** — runs completely on your local device
+* 🧠 **Always available** — works anytime, without internet
+* 🔒 **Privacy-first** — runs entirely on your local device
 * 💬 **Accessible communication** — supports English, Hindi & Hinglish
-* ❤️ **Emotionally supportive** — designed for empathetic interaction
+* ❤️ **Emotionally supportive** — built for empathetic conversations
 * 🆓 **Completely free** — no subscriptions, no hidden costs
 
-SaathiAI is not intended to replace human support — it aims to be a **first step**, a **safe space**, and a **companion when no one else is around**.
+SaathiAI does not replace human connection — it acts as a **first step**, a **safe space**, and a **companion when no one else is around**.
 
 ---
 
 ## ✨ What SaathiAI does
 
-* 💬 **Conversational AI support** — engage in natural, empathetic conversations in English, Hindi, or Hinglish
-* 📊 **Mood tracking system** — log daily emotions and identify patterns over time
-* 🚨 **Crisis awareness** — detect emotional distress signals and guide users toward help resources
-* 🔒 **Complete privacy** — no data leaves your device; everything runs locally
-* 🆓 **Zero cost usage** — no APIs, no subscriptions, no paywalls
+* 💬 **Conversational AI support** — natural, human-like conversations
+* 📊 **Mood tracking system** — track emotions and identify patterns
+* 🚨 **Crisis awareness** — detects distress signals and suggests help
+* 🔒 **Complete privacy** — zero data leaves your device
+* 🆓 **Zero cost usage** — no APIs, subscriptions, or paywalls
 
 ---
 
 ## 🛠️ How it's built
 
-| Component          | Technology                           |
-| ------------------ | ------------------------------------ |
-| Frontend           | React + Vite + Tailwind CSS          |
-| Backend            | Python + FastAPI                     |
-| AI Model           | Mistral (running locally via Ollama) |
-| Data Visualization | Chart.js                             |
+| Component          | Technology                            |
+| ------------------ | ------------------------------------- |
+| Frontend           | React + Vite + Tailwind CSS           |
+| Backend            | Python + FastAPI                      |
+| AI Model           | Mistral (via Ollama, running locally) |
+| Data Visualization | Chart.js                              |
 
-The entire system is designed to run locally on the user’s machine:
+The entire system runs locally:
 
 * No cloud dependency
 * No tracking
@@ -109,32 +110,27 @@ The entire system is designed to run locally on the user’s machine:
 
 ### Installation Steps
 
-```bash
-# Clone the repository
+```bash id="code1"
 git clone https://github.com/roshniakamble2002-droid/saathi-ai.git
 cd saathi-ai
 
-# Install AI model (one-time setup)
 ollama pull mistral
 
-# Start backend server
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
 
-# Start frontend (in new terminal)
 cd frontend
 npm install
 npm run dev
 ```
 
 Open: http://localhost:5173
-
 💙 Start your conversation.
 
 ---
 
-## 🆘 If you or someone you know needs help right now
+## 🆘 Need help right now?
 
 | Helpline              | Contact       |
 | --------------------- | ------------- |
@@ -142,7 +138,7 @@ Open: http://localhost:5173
 | Vandrevala Foundation | 1860-2662-345 |
 | AASRA                 | 9820466627    |
 
-*You don’t have to be in crisis to reach out. Sometimes, talking helps.*
+*You don’t have to be in crisis to reach out. Talking helps.*
 
 ---
 
@@ -154,7 +150,7 @@ Open: http://localhost:5173
 * [ ] Crisis keyword detection system
 * [ ] Hinglish/NLP improvements
 * [ ] Mobile-first responsive UI
-* [ ] Voice-based interaction (future expansion)
+* [ ] Voice-based interaction
 
 ---
 
@@ -166,7 +162,7 @@ This project is open-source and welcomes contributions.
 * Suggest improvements
 * Submit pull requests
 
-Even a ⭐ helps the project grow.
+⭐ Even a star helps the project grow.
 
 ---
 
@@ -179,7 +175,7 @@ Because mental health support should never be restricted.
 
 ## 👩‍💻 Author
 
-Built with chai ☕, care 💙, and a lot of late nights by
+Built with chai ☕, care 💙, and late nights by
 [Roshani](https://github.com/roshniakamble2002-droid)
 
 ---
